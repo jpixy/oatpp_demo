@@ -1,18 +1,19 @@
 {
-	"configurations": [
-		{
-			"name": "Linux",
-			"includePath": [
-				"${workspaceFolder}/**"
-			],
-			"defines": [],
-			"compilerPath": "/bin/clang++",
-			"cStandard": "c17",
-			"cppStandard": "c++17",
-			"intelliSenseMode": "clang-x64",
-			"configurationProvider": "ms-vscode.cmake-tools",
-			"compileCommands": "${workspaceFolder}/build/compile_commands.json"
-		}
-	],
-	"version": 4
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/include/oatpp-1.3.0/oatpp"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64",
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
+        }
+    ],
+    "version": 4
 }
