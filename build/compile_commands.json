@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/home/johnny/Development/source_code/workspace/cpp/oatpp_demo/build",
-  "command": "/bin/clang++  -I/usr/local/include/oatpp-1.3.0/oatpp -g -std=gnu++17 -o CMakeFiles/oatpp_demo.dir/src/main.o -c /home/johnny/Development/source_code/workspace/cpp/oatpp_demo/src/main.cpp",
-  "file": "/home/johnny/Development/source_code/workspace/cpp/oatpp_demo/src/main.cpp",
-  "output": "CMakeFiles/oatpp_demo.dir/src/main.o"
-}
-]
